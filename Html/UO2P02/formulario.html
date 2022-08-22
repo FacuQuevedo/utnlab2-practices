@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documen</title>
+</head>
+
+<body>
+  <h1 style="color:Black ; background-color: lightcoral;">Esta pagina sera un formulario donde debe ingresar todos sus
+    datos.</h1>
+  <div style="background-color:lightblue;color:white;padding:20px;">
+    <form action="">
+      <legend style="color:black ;">Datos del usuario
+        <FIeldset>
+          <input type="text" value="ESTUDIANTE" readonly>
+          <br>
+          <label style="color:black ;" for="nombre">Ingrse su nombre. </label>
+          <input type="text" name="nombre" id="name" placeholder="Nombre y apellido" required>
+          <br>
+          <label style="color:black ;" for="email">Ingrese su mail. </label>
+          <input type="email" name="apellido" id="lastName" placeholder="email" required>
+          <br>
+          <label style="color:black ;" for="edad">Ingrese su edad.</label>
+          <input type="number" name="edad" id="age" placeholder="edad" required>
+          <br>
+          <label for="nacionalidad">Nacionalidad:</label>
+          <select name="nacionalidad" id="nacionalidad">
+            <option value="Arg">Argentina</option>
+            <option value="Bra">Brasileña</option>
+            <option value="Col">Colombiana</option>
+            <option value="Urg">Uruguaya</option>
+          </select>
+          <br>
+          <label for="Trabajo">Condicion laboral:</label>
+          <select name="Trabajo " id="work">
+            <option value="desempleado">Desempleado</option>
+            <option value="buscando_empleo">En busqueda laboral</option>
+            <option value="full_time">tiempo completo</option>
+            <option value="part_time">Medio tiempo</option>
+          </select>
+        </FIeldset>
+      </legend>
+  </div>
+  <br>
+  <br>
+  <h2>Gustos personales </h2>
+  <div style="background-color:lightgreen;">
+    <fieldset>
+      <form action="">
+        <label for="gusto_musicales">Musica que te guste.</label>
+        <input type="text" name="gustos_musicales" id="musica">
+        <br>
+        <label for="comidas">Comida favorita: </label>
+        <select name="comidas" id="food">
+          <option value="hamburgesas">Hamburgesas</option>
+          <option value="pizza">Pizza</option>
+          <option value="ravioles">Ravioles</option>
+        </select>
+        <br>
+
+
+        <input type="submit" name="sendinfo" id="button">
+      </form>
+    </fieldset>
+  </div>
+</body>
+
+</html>
